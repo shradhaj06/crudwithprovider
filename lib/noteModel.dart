@@ -42,9 +42,7 @@ class NoteModel extends StatelessWidget {
     action: SnackBarAction(
     label: 'Undo',
     onPressed: () {
-    // If you want to implement undo functionality
-    // This is optional
-    noteProvider.addNote(note);
+        noteProvider.addNote(note);
     },
     ),
     ),

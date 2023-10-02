@@ -24,3 +24,4 @@ class NoteProvider extends ChangeNotifier {
     notifyListeners();
   }
 }
+
