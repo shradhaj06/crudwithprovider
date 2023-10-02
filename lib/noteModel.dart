@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:poctask/themechangerprovider.dart';
 import 'package:provider/provider.dart';
 import 'addnotescreen.dart';
 import 'editnotescreen.dart';
@@ -10,14 +11,23 @@ class NoteModel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final noteProvider = Provider.of<NoteProvider>(context);
-
+    final themeProvider = Provider.of<ThemeChanger>(context);
     return Scaffold(
-      appBar: AppBar(
+            appBar: AppBar(
         title: Text('Notes App',style: TextStyle(
-          fontSize: 15,
-        ),),
+          fontSize: 20,
+        ),), actions: <Widget>[
+        Switch(
+          value: themeProvider.currentTheme == ThemeData.dark(),
+          onChanged: (value) {
+            themeProvider.toggleTheme();
+          },
+        ),
+      ],
       ),
+
       body: ListView.builder(
+
         itemCount: noteProvider.notes.length,
         itemBuilder: (context, index) {
           final note = noteProvider.notes[index];
@@ -80,7 +90,7 @@ color: Colors.pinkAccent,
 
         subtitle: Column(
           children: [
-            SizedBox(height:18),
+            SizedBox(height:15),
             Text(note.content, style:TextStyle(
                 fontFamily: 'CormorantGaramond',
 
