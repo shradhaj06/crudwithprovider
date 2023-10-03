@@ -21,5 +21,5 @@ To run this project locally, follow these steps:
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/shradhaj06/crudithprovider.git
+   git clone https://github.com/shradhaj06/crudwithprovider.git
 
