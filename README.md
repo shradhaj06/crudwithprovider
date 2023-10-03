@@ -1,16 +1,25 @@
-# poctask
+# Flutter CRUD Application with Provider State Management
+This Flutter project is a demonstration of using the Provider package for state management. It showcases a simple notes CRUD (Create, Read, Update, Delete) application with the ability to switch between light and dark themes here.
 
-A new Flutter project.
+## Features
+
+- Manage notes (add, review, edit and delete)
+- Clean architecture using Provider State Management
+- Switch between light and dark themes
+
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Ensure you have Flutter installed. If not, follow the [Flutter installation guide](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Clone this repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   git clone https://github.com/your-username/flutter-provider-notes-app.git
+
