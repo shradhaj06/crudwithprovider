@@ -10,7 +10,10 @@ This Flutter project is a demonstration of using the Provider package for state 
 ## Screenshots
 
 ![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 2](screenshots/screenshot2.png)![WhatsApp Image 2023-10-05 at 10 48 14 PM](https://github.com/shradhaj06/crudwithprovider/assets/114392601/5dfc6725-4b10-4c9c-a4cd-748675a3cdda)
+![WhatsApp Image 2023-10-05 at 10 48 05 PM](https://github.com/shradhaj06/crudwithprovider/assets/114392601/c0731869-bc72-4e23-8ce4-2655b65b55f9)
+![WhatsApp Image 2023-10-05 at 10 47 33 PM](https://github.com/shradhaj06/crudwithprovider/assets/114392601/72767a4e-b07f-4af1-aa7c-cc225d7b3652)
+
 
 ## Getting Started
 
