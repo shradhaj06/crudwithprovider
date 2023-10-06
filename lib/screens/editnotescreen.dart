@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'note.dart';
-import 'noteProvider.dart';
+import '../note.dart';
+import '../providers/noteProvider.dart';
 
 
 class EditNoteScreen extends StatefulWidget {
@@ -33,6 +33,7 @@ class _EditNoteScreenState extends State<EditNoteScreen> {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Edit Note'),
@@ -45,6 +46,8 @@ class _EditNoteScreenState extends State<EditNoteScreen> {
             TextField(
               controller: _titleController,
               decoration: InputDecoration(labelText: 'Title'),
+              maxLines: null,
+
             ),
             SizedBox(height: 16),
             TextField(

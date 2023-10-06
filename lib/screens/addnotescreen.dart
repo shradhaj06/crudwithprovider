@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'note.dart';
-import 'noteProvider.dart';
+import '../note.dart';
+import '../providers/noteProvider.dart';
 
 
 class AddNoteScreen extends StatelessWidget {
@@ -33,25 +33,21 @@ class AddNoteScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 60),
-            SizedBox(
-height: 60,
-
-              child: TextField(
-                style: TextStyle(
-                  fontSize: 17,
-                  letterSpacing:0.85,
-                ),
-                controller: _contentController,
-                maxLines:null,
-                decoration: InputDecoration(labelText: 'Content',
-               //contentPadding: EdgeInsets.only(left:10,top: 60,bottom: 60),
-
-
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(12),
-                )),
-
+            TextField(
+              style: TextStyle(
+                fontSize: 17,
+                letterSpacing:0.85,
               ),
+              controller: _contentController,
+              maxLines:null,
+              decoration: InputDecoration(labelText: 'Content',
+             //contentPadding: EdgeInsets.only(left:10,top: 60,bottom: 60),
+
+
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+              )),
+
             ),
             SizedBox(height: 50),
             ElevatedButton(

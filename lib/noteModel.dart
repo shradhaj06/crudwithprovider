@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:poctask/themechangerprovider.dart';
+import 'package:poctask/providers/themechangerprovider.dart';
+
 import 'package:provider/provider.dart';
-import 'addnotescreen.dart';
-import 'editnotescreen.dart';
+import 'screens/addnotescreen.dart';
+import 'screens/editnotescreen.dart';
 
 import 'note.dart';
-import 'noteProvider.dart';
+import 'providers/noteProvider.dart';
 
 class NoteModel extends StatelessWidget {
   @override

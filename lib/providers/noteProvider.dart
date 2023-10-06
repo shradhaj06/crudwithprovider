@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'note.dart';
+import '../note.dart';
 
 class NoteProvider extends ChangeNotifier {
   final List<Note> _notes = [];
